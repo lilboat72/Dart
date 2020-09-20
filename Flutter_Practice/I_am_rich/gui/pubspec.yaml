@@ -1,0 +1,26 @@
+#Indentation is very important here
+#Every Indent is 2 spaces
+
+name: gui
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - Images/success.jpeg #Must be the name of your image
+   
+   #To encorporate all images 
+   #use '-Images/'

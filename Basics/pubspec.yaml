@@ -1,0 +1,3 @@
+name: main.dart
+dependencies:
+  basic_utils: ^2.5.3
